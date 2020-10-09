@@ -1,0 +1,36 @@
+<resources>
+
+    <style name="Theme.MyApp.Base" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimary">#AA0000</item>
+        <item name="colorPrimaryDark">#AA0000</item>
+        <item name="colorAccent">#AA0000</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MyApp.Base">
+        <!-- Customize your theme here. -->
+
+    </style>
+    <style name="ActionButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:background">#6e6e6e</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">0.5dp</item>
+    </style>
+
+    <style name="NumberButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:background">#a34e4e</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">0.5dp</item>
+    </style>
+
+</resources>
